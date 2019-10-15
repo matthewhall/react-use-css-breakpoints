@@ -1,2 +1,1 @@
-# useCssBreakpoint
-
+# use-css-breakpoints
