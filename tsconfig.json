@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "outDir": "lib",
+    "pretty": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
