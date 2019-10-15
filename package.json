@@ -1,0 +1,17 @@
+{
+  "name": "react-use-css-breakpoint",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Hall",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.5",
+    "typescript": "^3.6.4"
+  }
+}
