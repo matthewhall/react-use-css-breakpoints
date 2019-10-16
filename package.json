@@ -1,7 +1,7 @@
 {
   "name": "react-use-css-breakpoints",
   "version": "1.0.0",
-  "description": "",
+  "description": "React hook to use breakpoints defined in your CSS.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
