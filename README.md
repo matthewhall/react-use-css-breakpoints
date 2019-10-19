@@ -14,7 +14,7 @@ It works by checking the `content` property on the `::before` pseudo-element on 
 
 Define your breakpoints in your CSS. You can call them whatever you like:
 
-```
+```css
 body::before {
   content: 'small';
   display: none;
@@ -35,7 +35,7 @@ body::before {
 
 If you're using Sass you could loop through these like so:
 
-```
+```scss
 $breakpoints: (
   small: 0px,
   medium: 400px,
@@ -68,7 +68,7 @@ body {
 
 The hook will then use these to return the relevant breakpoint name on viewport size change:
 
-```
+```tsx
 import useCssBreakpoints from 'react-use-css-breakpoints';
 
 const breakpoint = useCssBreakpoints();
