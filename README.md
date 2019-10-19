@@ -73,3 +73,7 @@ import useCssBreakpoints from 'react-use-css-breakpoints';
 
 const breakpoint = useCssBreakpoints();
 ```
+
+## License
+
+The files included in this repository are licensed under the MIT license.
