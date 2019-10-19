@@ -21,7 +21,15 @@ afterAll(() => {
 test('Should should call the relevant DOM methods to get the computed style of the body.', () => {
   parseContentPropFromPseudoElement();
   expect(document.querySelector).toHaveBeenCalledWith('body');
-  expect(window.getComputedStyle).toHaveBeenCalled();
+  expect(window.getComputedStyle).toHaveBeenCalledWith(
+    document.createElement('body'),
+    ':before'
+  );
+  parseContentPropFromPseudoElement(':after');
+  expect(window.getComputedStyle).toHaveBeenCalledWith(
+    document.createElement('body'),
+    ':after'
+  );
 });
 
 test('Should strip and quotes from the start or end of the content value.', () => {
