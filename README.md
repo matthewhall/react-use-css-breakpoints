@@ -8,7 +8,7 @@ This hook attempts to do that.
 
 ## How?
 
-It works by checking the `content` property on the `::before` pseudo-element on the `body` element on window resize and returning the relevant breakpoint name as the viewport changes.
+It works by checking the `content` property on the `::before` pseudo-element on the `body` element on window resize and returns the relevant breakpoint name as the viewport changes.
 
 ### Usage
 
@@ -69,7 +69,7 @@ body {
 The hook will then use these to return the relevant breakpoint name on viewport size change:
 
 ```tsx
-import useCssBreakpoints from 'react-use-css-breakpoints';
+import { useCssBreakpoints } from 'react-use-css-breakpoints';
 
 const breakpoint = useCssBreakpoints();
 ```
