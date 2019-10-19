@@ -35,7 +35,7 @@ body::before {
 }
 ```
 
-If you're using Sass you could loop through these like so:
+If you're using Sass you could easily loop through them like so:
 
 ```scss
 $breakpoints: (
