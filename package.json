@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "React hook to use breakpoints defined in your CSS.",
   "homepage": "https://github.com/matthewhall/react-use-css-breakpoints#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewhall/react-use-css-breakpoints.git"
+  },
   "bugs": {
     "url": "https://github.com/matthewhall/react-use-css-breakpoints/issues"
   },
@@ -14,6 +18,9 @@
   },
   "author": "Matt Hall",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "peerDependencies": {
     "react": "^16.10.2"
   },
