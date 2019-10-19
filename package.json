@@ -2,7 +2,10 @@
   "name": "react-use-css-breakpoints",
   "version": "1.0.0",
   "description": "React hook to use breakpoints defined in your CSS.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "build": "rm -rf lib && rollup -c",
     "test": "jest --config ./jest.config.js"
   },
   "author": "Matt Hall",
@@ -21,7 +24,10 @@
     "eslint-plugin-react": "^7.16.0",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
+    "rollup": "^1.25.0",
+    "rollup-plugin-typescript2": "^0.24.3",
     "ts-jest": "^24.1.0",
+    "tslib": "^1.10.0",
     "typescript": "^3.6.4"
   }
 }
