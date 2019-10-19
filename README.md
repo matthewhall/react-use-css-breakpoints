@@ -6,6 +6,8 @@ There are other breakpoint hooks out there which are great, but my only gripe wi
 
 This hook attempts to do that.
 
+Inspired by [this](https://www.lullabot.com/articles/importing-css-breakpoints-into-javascript) article by [Mike Herchel](https://www.lullabot.com/about/mike-herchel).
+
 ## How?
 
 It works by checking the `content` property on the `::before` pseudo-element on the `body` element on window resize and returns the relevant breakpoint name as the viewport changes.
