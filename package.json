@@ -1,6 +1,6 @@
 {
   "name": "react-use-css-breakpoints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook to use breakpoints defined in your CSS.",
   "homepage": "https://github.com/matthewhall/react-use-css-breakpoints#readme",
   "repository": {
