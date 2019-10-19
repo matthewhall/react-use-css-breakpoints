@@ -15,7 +15,8 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/interface-name-prefix': ['error', 'always']
+    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
+    '@typescript-eslint/ban-ts-ignore': 'off'
   },
   settings: {
     react: {
