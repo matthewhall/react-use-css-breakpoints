@@ -1,5 +1,7 @@
 # use-css-breakpoints
 
+> React hook to use breakpoints defined in your CSS.
+
 ## Why?
 
 There are other breakpoint hooks out there which are great, but my only gripe with them is that you are often forced to define your breakpoints in two different places: in your CSS and also in your JS. Not a massive deal, but (if I can) I like to keep things a little tidier and remove that duplication.
