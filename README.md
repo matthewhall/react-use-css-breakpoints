@@ -16,13 +16,13 @@ It works by checking the `content` property on the `::before` pseudo-element on 
 
 ## Installation
 
-### With NPM
+__With NPM:__
 
 ```sh
 npm i react-use-css-breakpoints
 ```
 
-### With Yarn
+__With Yarn:__
 
 ```sh
 yarn add react-use-css-breakpoints
