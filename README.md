@@ -2,7 +2,7 @@
 
 > React hook to use breakpoints defined in your CSS.
 
-[![npm version](https://badge.fury.io/js/react-use-css-breakpoints.svg)](https://badge.fury.io/js/react-use-css-breakpoints)
+[![npm version](https://badge.fury.io/js/react-use-css-breakpoints.svg)](https://badge.fury.io/js/react-use-css-breakpoints) [![Build Status](https://travis-ci.org/matthewhall/react-use-css-breakpoints.svg?branch=master)](https://travis-ci.org/matthewhall/react-use-css-breakpoints)
 
 ## Why?
 
