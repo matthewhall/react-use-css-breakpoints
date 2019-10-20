@@ -14,7 +14,21 @@ Inspired by [this](https://www.lullabot.com/articles/importing-css-breakpoints-i
 
 It works by checking the `content` property on the `::before` pseudo-element on the `body` element on window resize and returns the relevant breakpoint name as the viewport changes.
 
-### Usage
+## Installation
+
+### With NPM
+
+```sh
+npm i react-use-css-breakpoints
+```
+
+### With Yarn
+
+```sh
+yarn add react-use-css-breakpoints
+```
+
+## Usage
 
 Define your breakpoints in your CSS. You can call them whatever you like:
 
