@@ -21,6 +21,17 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "react",
+    "use-css-breakpoints",
+    "hook",
+    "hooks",
+    "breakpoint",
+    "breakpoints",
+    "responsive",
+    "window",
+    "resize"
+  ],
   "peerDependencies": {
     "react": "^16.10.2"
   },
