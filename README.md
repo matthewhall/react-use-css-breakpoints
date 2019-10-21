@@ -74,7 +74,6 @@ body {
         display: none;
       }
     }
-
     @else {
       @media (min-width: $value) {
         &::before {
