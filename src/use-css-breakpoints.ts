@@ -20,7 +20,7 @@ export default function useCssBreakpoints(): string {
 
       const breakpoint: string = parseContentPropFromPseudoElement();
 
-      rAF = window.requestAnimationFrame(() => setState(breakpoint));
+      rAF = window.requestAnimationFrame(() => mounted && setState(breakpoint));
     };
 
     window.addEventListener('resize', onResize, { passive: true });
